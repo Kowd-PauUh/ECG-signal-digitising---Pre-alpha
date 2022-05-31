@@ -1,0 +1,16 @@
+
+<Container>:
+    canvas.before:
+        Color:
+            rgba: 1,1,1,1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    padding: 0
+    spacing: 0
+    touchscreen: touchscreen
+
+    TouchableImage:
+        id: touchscreen
+        source: root.image
+        container_size: root.size
