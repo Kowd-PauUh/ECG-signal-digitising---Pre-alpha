@@ -8,7 +8,7 @@ from kivy.core.window import Window
 from digitizer import Digitizer
 
 IMAGE_PATH = 'ecg.jpg'
-GRID_SIZE_PX = 8  # BETA
+GRID_SIZE_PX = 8  # Not implemented
 digitizer = Digitizer()
 digitizer.load_by_path(IMAGE_PATH)
 

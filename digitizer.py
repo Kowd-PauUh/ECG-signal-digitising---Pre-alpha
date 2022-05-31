@@ -73,7 +73,7 @@ class Digitizer:
         """ Find curve on image
 
         Args:
-            grid_size: grid size in px on input image |BETA|
+            grid_size: grid size in px on input image |Not implemented|
             show (bool): Shows a digitised curve if true
 
         """
